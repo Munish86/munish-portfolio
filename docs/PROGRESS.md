@@ -2,6 +2,14 @@
 
 Read this first when starting a new session. Last updated: 2026-10-15 (built locally).
 Technical overview: `../README.md`. Owner's guide (Hinglish): `OWNER-GUIDE.md`.
+Code on GitHub: https://github.com/Munish86/munish-portfolio (`main`, pushed 2026-10-15). Not in git: `local-login.txt`,
+`tools/wp-cli.phar` (copy from `../bulk-uploader-website/tools/`), `tools/.shots/`. The WordPress database
+(`portfolio_wp`) and uploads live only in XAMPP; `tools/setup-content.php` can rebuild pages, menus and samples.
+
+## Resume here (next session)
+
+Owner paused after the local build. Next: owner fills Portfolio > Profile (name, photo, email, socials) and sends real
+projects; then replace samples, "Delete sample content", change admin email, choose domain + hosting, migrate.
 
 ## Goal
 
