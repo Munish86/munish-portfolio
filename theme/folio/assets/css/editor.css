@@ -1,0 +1,23 @@
+/* Block editor: text looks like on the site (project, case study, service, post and page bodies). */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.78;
+  color: #3b3b45;
+}
+h1, h2, h3, h4, .editor-post-title__input {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  color: #111114;
+}
+h2 { font-size: 2.1rem; }
+h3 { font-size: 1.5rem; }
+a { color: #5a3ee0; }
+blockquote { border-left: 3px solid #6c4cf5; padding-left: 24px; margin-left: 0; font-family: "Space Grotesk", sans-serif; font-size: 1.2rem; color: #111114; }
+img { border-radius: 14px; }
+code { background: rgba(108, 76, 245, 0.1); padding: 0.15em 0.4em; border-radius: 6px; }
+.wp-block { max-width: 760px; }
+.wp-block[data-align="wide"] { max-width: 1200px; }
+.wp-block[data-align="full"] { max-width: none; }

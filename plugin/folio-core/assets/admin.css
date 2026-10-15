@@ -1,0 +1,28 @@
+/* Folio Core admin fields. */
+.folio-box { padding: 4px 2px 8px; }
+.folio-box__intro { margin: 4px 0 16px; padding: 10px 12px; background: #f6f7f7; border-left: 3px solid #6c4cf5; color: #3c434a; }
+.folio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px 20px; }
+.folio-field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.folio-field.is-wide { grid-column: 1 / -1; }
+.folio-label { font-weight: 600; }
+.folio-field input[type="text"], .folio-field input[type="email"], .folio-field input[type="url"], .folio-field input[type="number"], .folio-field select, .folio-field textarea { width: 100%; max-width: 100%; }
+.folio-field .description { margin: 0; }
+.folio-check { display: flex; align-items: center; gap: 6px; font-weight: 600; padding-top: 24px; }
+.folio-field--checkbox .folio-check { padding-top: 0; }
+.folio-media__preview img { max-width: 180px; max-height: 140px; border-radius: 6px; border: 1px solid #dcdcde; display: block; margin-bottom: 8px; object-fit: cover; }
+.folio-media__preview--grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.folio-media__preview--grid img { width: 84px; height: 64px; margin: 0; }
+.folio-media__clear { color: #b32d2e !important; margin-left: 6px !important; }
+.folio-file { display: flex; gap: 6px; flex-wrap: wrap; }
+.folio-file input { flex: 1; min-width: 200px; }
+.folio-repeater__rows { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.folio-repeater__row { display: flex; gap: 8px; align-items: flex-start; background: #f6f7f7; border: 1px solid #dcdcde; border-radius: 6px; padding: 8px; }
+.folio-repeater__cell { flex: 1; min-width: 0; }
+.folio-repeater__cell.is-grow { flex: 2.4; }
+.folio-repeater__cell input, .folio-repeater__cell textarea, .folio-repeater__cell select { width: 100%; }
+.folio-repeater__handle { cursor: grab; color: #8c8f94; padding: 6px 2px; letter-spacing: -3px; user-select: none; }
+.folio-repeater__remove { font-size: 22px !important; line-height: 1 !important; color: #b32d2e !important; text-decoration: none !important; padding: 4px 6px !important; }
+.folio-settings__lead { font-size: 14px; color: #50575e; }
+.folio-settings .folio-tab-panel { background: #fff; border: 1px solid #c3c4c7; border-top: 0; padding: 20px; }
+.folio-settings .nav-tab-wrapper { margin-bottom: 0; }
+@media (max-width: 782px) { .folio-repeater__row { flex-wrap: wrap; } .folio-repeater__cell, .folio-repeater__cell.is-grow { flex: 1 1 100%; } }
